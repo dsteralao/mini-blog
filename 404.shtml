@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>HowFar China | Error Page</title>
+    <meta name="description" content="study in China, Business in China, School in china">
+    <meta name="Author" content="Adedayo Alao">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+	<!--icon-->
+	<link rel="icon" type="image/png" href="./images/logos/logo1.png">
+	<link rel="apple-touch-icon" href="./images/logos/logo1.png">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500i|Roboto" rel="stylesheet">
+    
+    <script src="scripts/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	
+	<style>
+	html,body{
+   
+    height: 100%;
+    width: 100%;
+	background-color:#E4F1FE;
+}
+
+
+.middle{ width:80%;
+position:relative;
+		margin:auto;
+		
+		margin-bottom:50px;
+		min-height:500px
+}
+
+.middletop{
+position:relative;
+background-color:transparent;
+min-width:100%;
+min-height:30%
+}
+
+.middlebottom{position:relative;
+
+min-width:80%;
+min-height:70%
+}
+
+
+	</style>
+</head>
+
+<body>
+
+
+<div class="middle"> 
+<div class="middletop"> 
+<h3 style="text-align:center;font-size:8vw;font-weight:900;color:red">Ooops</h3>
+<h1 style="text-align:center;font-size:2vw;font-style: italic;">Sorry <span style="color:red"><!--#echo var="REQUEST_URI" --></span> does not exist</h1>
+<div style="height:100%;width:300px;margin:auto;position:;padding-top:10px;">
+
+<img class=" img-fluid  " style="max-height:240px;margin:auto;position:"src="./images/logos/logo1.png" >
+</div>
+</div>
+
+<div class="middlebottom"> 
+<div style="height:100%;width:80%;margin:auto;position:;margin-top:20px">
+<h4 style="text-align:center;font-size:2vw">You Seem lost, Let us help get you back on track</h4>
+
+<ul class=" ">
+	  <li class=" "><a class="" href="https://www.howfarchina.com/">Home</a></li>
+	  <li class=""><a class="" href="https://www.howfarchina.com/services.php">Services</a></li>
+	<li class=""><a class="" href="https://www.howfarchina.com/offers.php">Study Offers</a></li>
+      </ul>
+</div>
+
+ </div>
+
+</div>
+
+
+
+
+</body>
+
+</html>
